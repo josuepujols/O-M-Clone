@@ -1,0 +1,436 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #d5dde6;
+}
+
+/*Barra lateral*/
+
+#barra_lateral {
+    position: fixed;
+    width: 22%;
+    height: 692px;
+    box-shadow: 1px 0px 2px gray;
+    background-color: white;
+}
+
+#barra_lateral #menu{
+    position: fixed;
+    width: 74px;
+    height: 692px;
+    display: block;
+    background-color: #003473;
+}
+
+#barra_lateral img {
+    display: block;
+    margin: 0px auto;
+    border-bottom: 1px solid #0d3e7a;
+    padding: 20px;
+    transition: all 400ms;
+}
+
+#barra_lateral #menu img:hover {
+    background-color: rgb(83, 83, 83);
+    box-shadow: 0px 0px 5px black inset;
+}
+
+/*Barra lateral derecha*/
+#contenido_lateral #imagen {
+    margin-left: 100px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#contenido_lateral h2 {
+    margin-left: 100px;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+#contenido_lateral p {
+    margin-left: 100px;
+    margin-top: -10px;
+    font-weight: normal;
+    color: gray;
+}
+
+#contenido_lateral ul {
+    list-style: none;
+    margin-left: 30px;
+}
+
+#contenido_lateral ul > li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: all 400ms;
+}
+
+#contenido_lateral ul > li a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+#contenido_lateral ul > li:hover{
+    cursor: pointer;
+    background-color: rgb(228, 206, 206);
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+/*Contenido principal de la pagina*/
+
+
+/*Header*/
+#contenido_principal {
+    position: absolute;
+    width: 72%;
+    margin-left: 330px;
+}
+
+#contenido_principal header h1 {
+    font-weight: normal;
+}
+
+#contenido_principal header > a {
+    position: absolute;
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(100, 100, 100);
+    margin-top: -45px;
+    margin-left: 230px;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+
+#contenido_principal header > p {
+    position: absolute;
+    color: #4177b6;
+    margin-left: 293px;
+    margin-top: -45px;
+    font-size: 14px;
+}
+
+#contenido_principal header {
+    border-bottom: 1px solid gray;
+}
+
+/*Seccion 1*/
+
+#informacion_usuario {
+    position: absolute;
+    width: 273px;
+    height: 460px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+#informacion_usuario > a > #lapiz {
+    position: absolute;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 224px;
+    border: 1px solid black;
+}
+
+#informacion_usuario #img_usuario {
+    margin-left: 35px;
+    margin-top: 25px;
+    border-radius: 1100px;
+}
+
+#informacion_usuario h3 {
+    text-align: center;
+}
+
+#informacion_usuario p {
+    text-align: center;
+    margin-top: -10px;
+    color: rgb(77, 77, 77);
+    margin-left: 25px;
+    padding-bottom: 20px;
+    width: 80%;
+    border-bottom: 1px solid rgb(197, 193, 193);
+}
+
+#informacion_usuario #local {
+    width: 50px;
+    margin-left: 110px;
+}
+
+#informacion_usuario h4 {
+    text-align: center;
+    margin-top: -0px;
+    color: #12192b;
+}
+
+/*Seccion 2*/
+
+#datos_universidad {
+    position: absolute;
+    margin-left: 365px;
+    margin-top: 40px;
+}
+
+#datos_universidad input[type="submit"] {
+    background-color: #003473;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#datos_universidad #enlace {
+    width: 150px;
+    position: absolute;
+    text-decoration: none;
+    color: #4177b6;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#datos_universidad span {
+    position: absolute;
+    margin-top: 35px;
+    font-size: 25px;
+    margin-left: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    width: 610px;
+}
+
+#datos_universidad #activo {
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 35px;
+    background-color: #4caf50;
+    padding: 7px;
+    border-radius: 500px;
+    font-size: 12px;
+    color: white;
+}
+
+/*Seccion 3*/
+
+#dato_correo {
+    position: absolute;
+    margin-left: 375px;
+    margin-top: 190px;
+    background-color: white;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+#dato_correo p {
+    font-size: 14px;
+    color: rgb(82, 81, 81);
+    padding-bottom: 0px;
+}
+
+#dato_correo h4 {
+    margin-top: -10px;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+
+/*Seccion 4*/
+
+#inscripcion {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 190px;
+    background-color: #006400;
+    width: 292px;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+}
+
+#inscripcion h4 {
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+#inscripcion p {
+        position: absolute;
+        margin-top: -40px;
+        font-size: 13px;
+        margin-left: 12px;
+}
+
+#inscripcion p span {
+    font-size: 11px;
+}
+
+
+/*Seccion 5*/
+
+#video {
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 55px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #164273;
+    width: 270px;
+    height: 190px;
+}
+
+#video #imagen {
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-left: 13px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+#inferior {
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 55px;
+    background-color: white;
+    width: 270px;
+    height: 95px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#inferior #plataforma {
+    position: absolute;
+    font-size: 14px;
+    color: rgb(77, 76, 76);
+    font-family: sans-serif;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+#inferior input {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 85px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/*Seccion 6*/
+
+#contenido_tabla {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 700px;
+    border-radius: 10px;
+    width: 610px;
+    height: 450px;
+    background-color: white;
+    padding: 10px;
+}
+
+#contenido_tabla h3 {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+#contenido_tabla h4 {
+    margin-left: 5px;
+    font-weight: normal;
+    color: rgb(94, 94, 94);
+}
+
+#contenido_tabla table {
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 0px;
+    padding: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+
+#contenido_tabla table th,
+#contenido_tabla table td {
+    padding-right: 40px;
+}
+
+#contenido_tabla table .profesor {
+    text-align: center;
+    width: 120px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+
+}  
+
+#contenido_tabla table .negrita {
+    font-weight: bold;
+}
+
+#contenido_tabla table  tr {
+    border-bottom: 1px solid rgb(197, 194, 194);
+}
+
+#contenido_tabla table #primera {
+    border-top: 1px solid rgb(197, 194, 194);
+    background-color: #f0f6fc;
+}
+
+/*Footer*/
+
+footer {
+    position: absolute;
+    border-radius: 10px;
+    width: 948px;
+    height: 140px;
+    margin-top: 970px;
+    margin-left: 380px;
+    background-color: #d6d5d5;
+}
+
+footer span {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 36px;
+    border-bottom: 1px solid rgb(184, 179, 179);
+    padding-bottom: 10px;
+    width: 870px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+footer img {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 70px;
+}
+
+footer p {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 670px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
